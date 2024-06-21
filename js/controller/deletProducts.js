@@ -1,6 +1,6 @@
 function deleteProduct(productId) {
     // Enviar una solicitud DELETE al servidor para eliminar el producto
-    fetch(`http://localhost/products/${productId}`, {
+    fetch(`http://localhost:3000/products/${productId}`, {
         method: 'DELETE'
     })
     .then(response => {
