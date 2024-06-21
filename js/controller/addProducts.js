@@ -49,7 +49,7 @@ function addProducts() {
             };
 
             // Realizar la solicitud POST a la API
-            fetch("http://localhost/products", options)
+            fetch("http://localhost:3000/products", options)
                 .then(response => {
                     if (!response.ok) {
                         throw new Error("La solicitud no fue exitosa");
